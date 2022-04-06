@@ -3,9 +3,8 @@ export class Snack{
         this.name=name,
         this.price-price
     }
-
-    get money(){
-        this.money+=.25
-        document.getElementById("yourMoney")
-    }
+get Template(){
+    return /*html/`
+    
+}
 }
