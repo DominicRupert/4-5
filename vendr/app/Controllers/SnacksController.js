@@ -6,3 +6,11 @@ function _drawSnacks(){
     ProxyState.snacks.forEach(s=> template += s.template)
     document.getElementById('snacks').innerHTML=template
 }
+
+function _drawMoney(){
+    let template=''
+    ProxyState.money.forEach(s)
+}
+
+export {SnacksController}
+
